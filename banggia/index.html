@@ -8,5 +8,27 @@
 const rows=document.getElementById('rows'),msg=document.getElementById('msg'),table=document.getElementById('table'),search=document.getElementById('search');let items=[];
 function draw(){const q=search.value.trim().toLocaleLowerCase('vi');rows.replaceChildren();let count=0;for(const p of items){if(q&&!(p.ten||'').toLocaleLowerCase('vi').includes(q))continue;const tr=document.createElement('tr');for(const [v,cls] of [[p.ten||'',''],[p.gia||'','price']]){const td=document.createElement('td');td.textContent=v;td.className=cls;tr.append(td)}rows.append(tr);count++}table.hidden=count===0;msg.textContent=count?'':(items.length?'Không tìm thấy sản phẩm.':'Chưa có bảng giá được công bố.')}
 search.addEventListener('input',draw);
-fetch('./data.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('Không tải được dữ liệu');return r.json()}).then(d=>{items=Array.isArray(d.items)?d.items:[];draw()}).catch(()=>{msg.textContent='Không thể tải bảng giá. Vui lòng thử lại sau.'});
+// Read the latest published file from GitHub rather than a possibly stale GitHub Pages deployment.
+async function loadPrices(){
+ const stamp=Date.now();
+ const sources=[
+   'https://raw.githubusercontent.com/AdamAvaAdam/banhang123/main/banggia/data.json?t='+stamp,
+   './data.json?t='+stamp
+ ];
+ let lastError;
+ for(const url of sources){
+   try{
+     const response=await fetch(url,{cache:'no-store'});
+     if(!response.ok)throw Error('HTTP '+response.status);
+     const data=await response.json();
+     if(!Array.isArray(data.items))throw Error('Dữ liệu không hợp lệ');
+     items=data.items.filter(p=>p&&typeof p.ten==='string'&&typeof p.gia==='string').map(p=>({ten:p.ten,gia:p.gia}));
+     draw();return;
+   }catch(error){lastError=error}
+ }
+ if(!items.length){msg.textContent='Không thể tải bảng giá. Vui lòng thử lại sau.';table.hidden=true}
+}
+loadPrices();
+document.addEventListener('visibilitychange',()=>{if(!document.hidden)loadPrices()});
+setInterval(loadPrices,60000);
 </script></body></html>
