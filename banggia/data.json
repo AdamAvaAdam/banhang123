@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T07:56:13.574Z",
+  "updatedAt": "2026-11-24T07:43:25.112Z",
   "items": [
     {
       "ten": "Máy giặt Panasonic NA - F10S10BRV",
@@ -78,40 +78,64 @@
       "gia": "7.340.000đ"
     },
     {
-      "ten": "Máy giặt Panasonic NA-FJ120X1BV",
-      "gia": "8.920.000đ"
-    },
-    {
       "ten": "Máy giặt Panasonic NA-FJ90X1DV (9kg)",
       "gia": "5.920.000đ"
     },
     {
-      "ten": "Máy giặt sấy Panasonic NA-S20DG1BVT (10kg/7kg)",
-      "gia": "12.320.000đ"
+      "ten": "Máy giặt sấy Panasonic NA-S24DW1BVT (12kg/7kg)",
+      "gia": "13.410.000đ"
     },
     {
-      "ten": "Máy sấy bơm nhiệt Panasonic NH-XJ19D2BVT (9.5kg)",
-      "gia": "16.400.000đ"
+      "ten": "Máy giặt Toshiba AW-DM1100JV(MK)",
+      "gia": "5.150.000đ"
     },
     {
-      "ten": "Máy sấy bơm nhiệt Panasonic NH-XJ21D2BVT (10.5kg)",
-      "gia": "18.040.000đ"
+      "ten": "Máy giặt Toshiba AW-M1000FV ( MK )",
+      "gia": "4.600.000đ"
+    },
+    {
+      "ten": "Máy giặt Toshiba AW-M1100JV (MK)",
+      "gia": "4.900.000đ"
+    },
+    {
+      "ten": "Máy sấy bơm nhiệt Toshiba TD-BP110GHV(MG)",
+      "gia": "11.410.000đ"
+    },
+    {
+      "ten": "Máy sấy bơm nhiệt Toshiba TD-T21B90HWV(MG)",
+      "gia": "9.060.000đ"
+    },
+    {
+      "ten": "Máy sấy thông hơi Toshiba TD-H80SEV(WK)",
+      "gia": "4.510.000đ"
+    },
+    {
+      "ten": "Tủ Lạnh Hitachi R-WB640PGV1 ( GMG)",
+      "gia": "22.600.000đ"
+    },
+    {
+      "ten": "Tủ Lạnh Hitachi R-WB640PGV1 GPW",
+      "gia": "22.600.000đ"
+    },
+    {
+      "ten": "Tủ Lạnh Hitachi R-WB640PGV1 GPW",
+      "gia": "21.250.000đ"
+    },
+    {
+      "ten": "Tủ lạnh Hitachi R-WB640VGV0 (GBK)",
+      "gia": "27.550.000đ"
     },
     {
       "ten": "Tủ lạnh Panasonic NR - BX471GPKV",
       "gia": "12.640.000đ"
     },
     {
-      "ten": "Tủ lạnh Panasonic NR - BX471WGKV",
-      "gia": "14.020.000đ"
-    },
-    {
       "ten": "Tủ lạnh Panasonic NR - CW530XMMV",
       "gia": "23.550.000đ"
     },
     {
-      "ten": "Tủ lạnh Panasonic NR - DZ601YGKV",
-      "gia": "23.340.000đ"
+      "ten": "Tủ lạnh Panasonic NR - CW530XMMV",
+      "gia": "22.900.000đ"
     },
     {
       "ten": "Tủ lạnh Panasonic NR - YW590YMMV",
@@ -122,32 +146,8 @@
       "gia": "5.030.000đ"
     },
     {
-      "ten": "Tủ lạnh Panasonic NR-BV322BWKV - 299L",
-      "gia": "9.350.000đ"
-    },
-    {
-      "ten": "Tủ lạnh Panasonic NR-BV372BWKV -344L",
-      "gia": "10.620.000đ"
-    },
-    {
-      "ten": "Tủ lạnh Panasonic NR-BV372HGKV -336L",
-      "gia": "12.750.000đ"
-    },
-    {
-      "ten": "Tủ lạnh Panasonic NR-BV412BWKV -374L",
-      "gia": "11.470.000đ"
-    },
-    {
       "ten": "Tủ lạnh Panasonic NR-BV412HGKV -366L",
-      "gia": "13.600.000đ"
-    },
-    {
-      "ten": "Tủ lạnh Panasonic NR-BX421XGKV",
-      "gia": "13.090.000đ"
-    },
-    {
-      "ten": "Tủ lạnh Panasonic NR-BX471XGKV",
-      "gia": "14.450.000đ"
+      "gia": "13.400.000đ"
     },
     {
       "ten": "Tủ lạnh Panasonic NR-SP275CPAV (251L)",
@@ -156,10 +156,6 @@
     {
       "ten": "Tủ lạnh Panasonic NR-XZ520CWKV (445L)",
       "gia": "14.050.000đ"
-    },
-    {
-      "ten": "Tủ lạnh Panasonic NR-XZ520HGKV (440L)",
-      "gia": "16.600.000đ"
     },
     {
       "ten": "Tủ lạnh Panasonic NR-XZ550CWKV (487L)",
@@ -178,8 +174,68 @@
       "gia": "19.000.000đ"
     },
     {
+      "ten": "Tủ lạnh Panasonic NR-XZ590HGKV (520L)",
+      "gia": "18.800.000đ"
+    },
+    {
       "ten": "Tủ lạnh Panasonic NR-YW590XJKV (545L)",
       "gia": "29.600.000đ"
+    },
+    {
+      "ten": "Tủ lạnh Panasonic NR-YW590XJKV (545L)",
+      "gia": "29.800.000đ"
+    },
+    {
+      "ten": "Tủ lạnh Sharp SJ-X198V-DG",
+      "gia": "4.200.000đ"
+    },
+    {
+      "ten": "Tủ lạnh Sharp SJ-X215V-DG",
+      "gia": "4.450.000đ"
+    },
+    {
+      "ten": "Tủ lạnh Sharp SJ-X270V-DG",
+      "gia": "5.150.000đ"
+    },
+    {
+      "ten": "Tủ lạnh Sharp SJ-XP352AE-DS",
+      "gia": "7.000.000đ"
+    },
+    {
+      "ten": "Tủ lạnh Toshiba GR-RF675WI-PMV(06)-MG",
+      "gia": "13.710.000đ"
+    },
+    {
+      "ten": "Tủ lạnh Toshiba GR-RF677WI-PMV(06)-MG",
+      "gia": "11.710.000đ"
+    },
+    {
+      "ten": "Tủ lạnh Toshiba GR-RS696WI-PMV(60)-AG",
+      "gia": "10.320.000đ"
+    },
+    {
+      "ten": "Tủ lạnh Toshiba GR-RT236WE-PMV(68)",
+      "gia": "4.300.000đ"
+    },
+    {
+      "ten": "Tủ lạnh Toshiba GR-RT468WE-PMV(58) MM",
+      "gia": "6.700.000đ"
+    },
+    {
+      "ten": "Tủ lạnh Toshiba GR-RT468WE-PMV(58) MM",
+      "gia": "6.650.000đ"
+    },
+    {
+      "ten": "Tủ lạnh Toshiba GR-RT535WEA-PMV(06) MG",
+      "gia": "9.770.000đ"
+    },
+    {
+      "ten": "Tủ lạnh Toshiba GR-RT559WE-PMV(58)-MM",
+      "gia": "8.000.000đ"
+    },
+    {
+      "ten": "Tủ lạnh Toshiba GR-RT559WE-PMV(58)-MM",
+      "gia": "7.950.000đ"
     }
   ]
 }
